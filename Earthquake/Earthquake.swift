@@ -10,40 +10,6 @@ import UIKit
 
 typealias DICT = Dictionary<AnyHashable,Any>
 
-//class Earth {
-//    var generated : TimeInterval?
-//    var url : String?
-//    var title : String?
-//    var status : Int?
-//    var count : Int?
-//
-//    var featuresArr : [Feature] = []
-//
-//    init?(dict : DICT) {
-//        guard let metadata = dict["metadata"] as? DICT else { return nil }
-//        guard let generated = metadata["generated"] as? TimeInterval else { return nil }
-//        guard let url = metadata["url"] as? String else { return nil }
-//        guard let title = metadata["title"] as? String else { return nil }
-//        guard let status = metadata["status"] as? Int else { return nil }
-//        guard let count = metadata["count"] as? Int else { return nil }
-//
-//        guard let features = metadata["features"] as? [DICT] else { return nil }
-//
-//        for featureObj in features {
-//            if let feature = Feature(dict : featureObj) {
-//                featuresArr.append(feature)
-//            }
-//        }
-//
-//        self.generated = generated
-//        self.url = url
-//        self.title = title
-//        self.status = status
-//        self.count = count
-//
-//
-//    }
-//}
 
 class Feature {
     var mag : Double

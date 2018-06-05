@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584D79DF20C67CC500DABC40 /* Etension + Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584D79DE20C67CC500DABC40 /* Etension + Time.swift */; };
 		589EC54020C58EEA0034E630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589EC53F20C58EEA0034E630 /* AppDelegate.swift */; };
 		589EC54520C58EEA0034E630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589EC54320C58EEA0034E630 /* Main.storyboard */; };
 		589EC54820C58EEA0034E630 /* Earthquake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 589EC54620C58EEA0034E630 /* Earthquake.xcdatamodeld */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		584D79DE20C67CC500DABC40 /* Etension + Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Etension + Time.swift"; sourceTree = "<group>"; };
 		589EC53C20C58EEA0034E630 /* Earthquake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		589EC53F20C58EEA0034E630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		589EC54420C58EEA0034E630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				589EC55A20C59C980034E630 /* TableViewCell.swift */,
 				589EC55620C58F3B0034E630 /* Earthquake.swift */,
 				589EC55420C58F380034E630 /* DataService.swift */,
+				584D79DE20C67CC500DABC40 /* Etension + Time.swift */,
 				589EC54920C58EEA0034E630 /* Assets.xcassets */,
 				589EC54B20C58EEA0034E630 /* LaunchScreen.storyboard */,
 				589EC54E20C58EEA0034E630 /* Info.plist */,
@@ -154,6 +157,7 @@
 				589EC55B20C59C980034E630 /* TableViewCell.swift in Sources */,
 				589EC55920C594150034E630 /* TableViewController.swift in Sources */,
 				589EC55520C58F380034E630 /* DataService.swift in Sources */,
+				584D79DF20C67CC500DABC40 /* Etension + Time.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

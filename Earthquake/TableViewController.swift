@@ -40,7 +40,11 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
             cell.label1.text = String(features[indexPath.row].mag)
-            cell.label1.layer.cornerRadius = 
+            cell.label1.layer.cornerRadius = cell.label1.frame.size.width/2
+            cell.label1.layer.masksToBounds = true
+        
+            cell.label3.text = features[indexPath.row].time.toDay
+            cell.label5.text = features[indexPath.row].time.toHour
         // Configure the cell...
 
         return cell
